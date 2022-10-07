@@ -3,6 +3,9 @@ import com.liwc.servlet.HeroRequest;
 import com.liwc.servlet.HeroResponse;
 import com.liwc.servlet.HeroServlet;
 
+/**
+ * helloservlet
+ */
 public class HelloServlet extends HeroServlet {
     @Override
     public void doGet(HeroRequest heroRequest, HeroResponse heroResponse) throws Exception {
